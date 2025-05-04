@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://edgemining.energy/mysite/</loc>
+         <loc>https://docs.edgemining.energy/latest/index.html</loc>
          <lastmod>2025-05-04</lastmod>
     </url>
     <url>
-         <loc>https://edgemining.energy/mysite/about/</loc>
+         <loc>https://docs.edgemining.energy/latest/about.html</loc>
          <lastmod>2025-05-04</lastmod>
     </url>
     <url>
-         <loc>https://edgemining.energy/mysite/changelog/</loc>
+         <loc>https://docs.edgemining.energy/latest/changelog.html</loc>
          <lastmod>2025-05-04</lastmod>
     </url>
     <url>
-         <loc>https://edgemining.energy/mysite/blog/</loc>
+         <loc>https://docs.edgemining.energy/latest/blog/index.html</loc>
          <lastmod>2025-05-04</lastmod>
     </url>
     <url>
-         <loc>https://edgemining.energy/mysite/docs/architecture/</loc>
+         <loc>https://docs.edgemining.energy/latest/docs/architecture.html</loc>
          <lastmod>2025-05-04</lastmod>
     </url>
     <url>
-         <loc>https://edgemining.energy/mysite/docs/getting-started/</loc>
+         <loc>https://docs.edgemining.energy/latest/docs/getting-started.html</loc>
          <lastmod>2025-05-04</lastmod>
     </url>
 </urlset>

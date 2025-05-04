@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page.url == "index.html" %}
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1><span>Edge Mining:</span> mine your energy</h1>
+          <p class="lead">
+            Convert surplus renewable energy into <strong>Bitcoin</strong> with our intelligent, automated mining solution designed specifically for green energy producers.
+          </p>
+          <a href="https://app.formbricks.com/s/cma4k1hfj0jn7vw019sizlnio" class="btn btn-primary">Fill the form!</a>
+        </div>
+        <div class="hero-right"></div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="container grid-2">
+        <div class="about-text">
+          <p>
+            Edge Mining optimizes renewable energy systems by integrating Bitcoin mining at the source. Our solution helps small and medium-sized renewable power plants transform excess energy into valuable digital assets.
+          </p>
+          <p>
+            Our intelligent system automatically adjusts mining operations based on real-time energy availability, while capturing the generated heat for practical applications like space heating—creating a truly efficient energy ecosystem.
+          </p>
+        </div>
+        <div class="features-box">
+          <h3>Key Features</h3>
+          <ul>
+            <li>Smart automation based on energy availability</li>
+            <li>Heat recovery for practical applications</li>
+            <li>Designed for small to medium renewable installations</li>
+            <li>100% open-source with no licensing fees</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="community-section">
+      <div class="container centered">
+        <h2>Get Involved</h2>
+        <p>
+          Join our growing community of developers and energy enthusiasts. Together, we're building the future of renewable energy optimization.
+        </p>
+        <div class="discord-card">
+          <a href="https://discord.gg/YOUR-LINK" class="btn btn-primary">Discord</a>
+          <p>Connect with our community to discuss ideas, ask questions, and collaborate on new features.h our community to discuss ideas, ask questions, and collaborate on new features.</p>
+        </div>
+      </div>
+    </section>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}

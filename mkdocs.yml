@@ -3,13 +3,14 @@ site_description: "Bitcoin Mining for Energy Efficiency"
 site_author: BitSalv
 site_url: https://docs.edgemining.energy
 
-repo_url: https://github.com/bitsalv/docs.edgemining.energy
+repo_url: https://github.com/edge-mining/core
 repo_name: GitHub
 edit_uri: edit/main/docs/
 
 theme:
   name: material
   custom_dir: overrides
+  extra_css:  assets/stylesheets/custom.css
   language: en
   palette:
     - scheme: default
@@ -27,7 +28,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  logo: assets/images/logo.png
+  logo: assets/images/logo.svg
   favicon: assets/images/favicon.ico
   icon:
     repo: fontawesome/brands/github
@@ -51,15 +52,13 @@ nav:
   - Documentation:
       - Getting Started: docs/getting-started.md
       - Architecture: docs/architecture.md
-  - Changelog: changelog.md
+      - Glossary: docs/glossary.md
   - About: about.md
 
 plugins:
   - search
   - tags
-  - blog:
-      blog_dir: blog
-      post_template: blog/post.html
+  - blog
   - git-revision-date-localized:
       enable_creation_date: true
   - mkdocstrings:
@@ -86,8 +85,8 @@ markdown_extensions:
   - codehilite
   - toc:
       permalink: true
-  - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist

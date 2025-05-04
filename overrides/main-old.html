@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page.url == "index.html" %}
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1>Edge Mining:<br><span>maximizing energy value</span></h1>
+          <p>Convert surplus renewable energy into Bitcoin with our intelligent, automated mining solution designed specifically for green energy producers.</p>
+          <div class="cta-group">
+            <a href="https://github.com/edge-mining" class="btn btn-primary">GitHub</a>
+            <a href="/docs/" class="btn btn-secondary">Documentation</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="highlight-box">
+            <h3>Ready to Shape the Future?</h3>
+            <p>Your feedback drives our innovation. Take our quick survey and be part of the edge mining movement!</p>
+            <a href="https://app.formbricks.com/s/cma4k1hfj0jn7vw019sizlnio" class="btn btn-primary btn-block">Complete the survey</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>About Edge Mining</h2>
+          <p>Edge Mining optimizes renewable energy systems by integrating Bitcoin mining at the source. Our solution helps small and medium-sized renewable power plants transform excess energy into valuable digital assets.</p>
+          <p>Our intelligent system automatically adjusts mining operations based on real-time energy availability, while capturing the generated heat for practical applications like space heating—creating a truly efficient energy ecosystem.</p>
+        </div>
+        <div class="about-box">
+          <h4>Key Features</h4>
+          <ul>
+            <li>✅ Smart automation based on energy availability</li>
+            <li>✅ Heat recovery for practical applications</li>
+            <li>✅ Designed for small to medium renewable installations</li>
+            <li>✅ 100% open-source with no licensing fees</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-cta">
+      <div class="container centered">
+        <p>Edge Mining is a FOSS project.</p>
+      </div>
+    </section>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
