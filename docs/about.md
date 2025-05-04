@@ -34,8 +34,8 @@ We believe in building in the open, welcoming feedback, contributions, and criti
 
 ## 📚 Learn More
 
-- [Domain-Driven Architecture Overview](./modelling/domain-driven-architecture-overview.md)
-- [Glossary](./modelling/glossary.md)
+- [Domain-Driven Architecture Overview](./docs/architecture.md)
+- [Glossary](./docs/glossary.md)
 - [Core Repository](https://github.com/edge-mining/core)
 - [Add-on: Home Assistant Integration](https://github.com/edge-mining/addon)
 
