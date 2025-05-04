@@ -1,0 +1,101 @@
+site_name: Edge Mining
+site_description: "Bitcoin Mining for Energy Efficiency"
+site_author: BitSalv
+site_url: https://docs.edgemining.energy
+
+repo_url: https://github.com/bitsalv/docs.edgemining.energy
+repo_name: GitHub
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - navigation.footer
+    - content.action.edit
+    - content.code.copy
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
+  - Documentation:
+      - Getting Started: docs/getting-started.md
+      - Architecture: docs/architecture.md
+  - Changelog: changelog.md
+  - About: about.md
+
+plugins:
+  - search
+  - tags
+  - blog:
+      blog_dir: blog
+      post_template: blog/post.html
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - mkdocstrings:
+      default_handler: python
+  - awesome-pages
+  - redirects
+  - minify:
+      minify_html: true
+  - offline
+  - privacy
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://edgemining.energy
+    - icon: fontawesome/brands/twitter
+      link: https://edgemining.energy
+  version:
+    provider: mike
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist
+  - pymdownx.highlight
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.keys

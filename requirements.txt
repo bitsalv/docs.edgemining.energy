@@ -1,0 +1,7 @@
+mkdocs-material[all]
+mkdocs-awesome-pages-plugin
+mkdocs-redirects
+mkdocstrings[python]
+mkdocs-minify-plugin
+mkdocs-blog-plugin
+mkdocs-git-revision-date-localized-plugin

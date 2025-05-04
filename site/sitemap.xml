@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://edgemining.energy/mysite/</loc>
+         <lastmod>2025-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://edgemining.energy/mysite/about/</loc>
+         <lastmod>2025-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://edgemining.energy/mysite/changelog/</loc>
+         <lastmod>2025-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://edgemining.energy/mysite/blog/</loc>
+         <lastmod>2025-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://edgemining.energy/mysite/docs/architecture/</loc>
+         <lastmod>2025-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://edgemining.energy/mysite/docs/getting-started/</loc>
+         <lastmod>2025-05-04</lastmod>
+    </url>
+</urlset>
